@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors({
   origin: 'https://youtube-frontend-mocha.vercel.app', // Replace with your Vercel domain
-  methods: ['GET', 'POST', 'PUT', 'DELETE','OPTION'], // Define allowed methods if necessary
+  methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH','OPTION'], // Define allowed methods if necessary
   credentials: true // If you are sending cookies or other credentials
 }));
 
